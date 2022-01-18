@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  body {
+  	font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+  }
+	header {
+  	display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+  	top: 0;
+  	width: 100%;
+  	transition: 0.2s;
+    margin-left: -7px;
+    margin-bottom; 50px;
+    background-color: #DDD;
+    padding-left: 10px;
+    border-bottom: 1px solid #AAA;
+	}
+  #header > * {
+  	height: 100%;
+    height: fit-content;
+    align-self: center;
+    justify-self: center;
+  }
+  #content {
+  	display: flex;
+  }
+  #image-div {
+  	margin-right: 20px;
+  }
+  .form {
+  	width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  #body {
+  	padding-top: 75px;  	
+  }
+  ul {
+  	list-style: none;
+  }
+  .product {
+  	display: flex;
+		flex-direction: row;
+  	background: #DDD;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .footer {
+  	display: flex;
+    justify-content: center;
+    align-items: center;
+  	clear: both;
+    position: relative;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: -7px;
+    padding-bottom: 10px;
+    background-color: #DDD;
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 1px solid #AAA;
+  }
+  h2 {
+  	margin-left: 10px;
+  }
+  th {
+  	font-size: 15px;
+  }
+  td {
+  	font-size: 13px;
+  }
+  table {
+  	text-align: left;
+  	border: 1px solid black;
+    width: 100%;
+	}
+  .button {
+  border-radius: 4px;
+  background-color: #EEE;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  .buttons-div {
+  	display: flex;
+    flex-direction: column;
+  }
+  .buttons-div > button {
+  	margin-bottom: 10px;
+  }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
+    <title>YABE</title>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img style="width: 10%" src="images/yabe.png" /></a>
+    <form class="form">
+      <input type="text" placeholder="Suche nach einem Produkt..." size="25" />
+      <input type="button" value="Suchen" />
+    </form>
+    <div style="width: 10%">
+			<img src="https://img.icons8.com/small/32/000000/shopping-cart.png" width="32" height="32" />
+    </div>
+  </header>
+	<div id = "body">
+    <div id="content">
+      <div id="image-div">
+        <img src="https://holzpiloten.de/media/catalog/product/t/i/tisch-massivholz-buche-stahlkufen-gestell.jpg" width="250px" height="250px" />
+      </div>
+      <div>
+        <h2 id = "h2">Tisch</h2>
+        <h3 style="margin-left: 30px; font-weight: normal;">Kostenloser Versand bis Ende Januar!</h3>
+        <div style="margin-left: 30px; margin-bottom: 40px;">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="32" height="32"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f1c40f"><path d="M86,10.75l-21.79395,51.6504l-53.45605,5.83691l39.97656,37.75098l-11.25391,55.26172l46.52734,-28.34473l46.52734,28.34473l-11.25391,-55.26172l39.97656,-37.75098l-53.45605,-5.83691z"></path></g></g></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="32" height="32"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f1c40f"><path d="M86,10.75l-21.79395,51.6504l-53.45605,5.83691l39.97656,37.75098l-11.25391,55.26172l46.52734,-28.34473l46.52734,28.34473l-11.25391,-55.26172l39.97656,-37.75098l-53.45605,-5.83691z"></path></g></g></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+          width="32" height="32"
+          viewBox="0 0 172 172"
+          style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f1c40f"><path d="M86,10.75l-21.79395,51.6504l-53.45605,5.83691l39.97656,37.75098l-11.25391,55.26172l46.52734,-28.34473z"></path></g></g></svg>
+          <img src="https://img.icons8.com/small/32/000000/star.png"/>
+          <img src="https://img.icons8.com/small/32/000000/star.png"/>
+        </div>
+        <p style="margin-left: 40px; margin-bottom: 40px; font-weight: bold;">809,00€</p>
+        <div class="buttons-div">
+          <button class = "button"><span>Auf Raten kaufen</span></button>
+          <button class = "button"><span>Kaufen</span></button>
+          <button class = "button"><span>Merken</span></button>
+        </div>
+    	</div>
+    </div>
+    <h3>Beschreibung:</h3>
+    <p>Ein Tisch mit Eichenholzplatte und schwarzem Stahlgestell. Passt perfekt in jeden Raum Ihrer Wohnung. Zeitloses Design mit höchster Qualität! Hier können Sie sich alle Merkmale des Tisches angucken:</p>
+    <ol>
+      <li>sehr stabil</li>
+      <li>hochwertige Verarbeitung</li>
+      <li>Verwendung von <bold style="font-weight: bold;">Massivholz</bold></li>
+      <li>langlebig</li>
+      <li>groß genug für jede Arbeit</li>
+      <li>Beinfreiheit</li>
+      <li style="font-weight: bold">schickes Design</li>
+      <li><span style="font-style: underline;">intelligentes</span> Kabelmanagement</li>
+      <li style="font-style: italic">vegan</li>
+    </ol>
+  </div>
+  <div class = "footer">
+    <div id="copyright">
+			Copyright © 2022 yabe UG Alle Rechte vorbehalten.    
+    </div>
+  </div>
+</body>
