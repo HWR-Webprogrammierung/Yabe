@@ -1,1 +1,2 @@
-# Ebay
+# Yabe
+Wir haben uns Yabe, einen Online-Shop, als Projektthema gewählt. Alle Seiten von Yabe haben das gleiche Banner, bestehend aus dem Logo, einer Suchleiste und dem Warenkorb. Auf der Startseite sind verschiedene Produkte aufgelistet. Diese Auflistung beinhaltet ein Foto, einen Preis, eine Beschreibung und eine Tabelle mit weiteren wichtigen Daten über das Produkt. Außerdem gibt es einen Button, welcher auf eine weitere Seite führt, auf dem weitere Details über das Produkt angezeigt werden.
