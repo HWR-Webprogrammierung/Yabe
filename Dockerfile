@@ -1,9 +1,8 @@
 FROM node:16
 WORKDIR /usr/src/app
 
-COPY package*.json ./
+RUN git clone https://github.com/HWR-Webprogrammierung/Yabe.git ./
 RUN npm install
 
-RUN git clone git@github.com:HWR-DenisKnecht/Ebay.git ./
 EXPOSE 8080
 CMD ["node", "index.js"]
